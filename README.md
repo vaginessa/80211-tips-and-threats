@@ -1,6 +1,25 @@
-# 80211-tips-and-threats
-802.11 tips and threats
+# 802.11 tips and threats
 
+Links an code for "802.11 tips and threats" @ Defcon Moscow #dc4799
+
+## Atheros hamradio
+http://yo3iiu.ro/blog/?p=1301
+
+## My repos
+https://github.com/0x90/scapy-osx
+https://github.com/0x90/wifi-arsenal
+https://github.com/0x90/wps-scripts
+https://github.com/0x90/wifi-scripts
+
+[Wispi for TP-Link] (http://semaraks.blogspot.ru/2015/03/wispi-for-various-type-tp-link-router.html)
+
+## 802.11 hacking @ OS X
+```
+ln -s 
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/binairport
+```
+
+[Apple80211 framework analysis](http://newosxbook.com/articles/11208ellpA.html)
 
 ## Links
 
@@ -27,7 +46,6 @@ http://w1.fi/security/2014-1/
 http://digi.ninja/
 http://www.wifikiwi.com/
 
-
 ## WPS
 https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-(Offline-WPS-Attack)
 http://k0derz.ru/%D0%B1%D0%B0%D0%B7%D0%B0-wps-pin-%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2/
@@ -40,13 +58,12 @@ https://www.sec-consult.com/fxdata/seccons/prod/temedia/advisories_txt/20130805-
 http://standards.ieee.org/develop/regauth/oui/oui.txt
 http://uceka.com/2013/12/31/wps-pin-cracker-wpawpa2-hack-in-5-second/
 
-
-## NintendoDS Scan
-https://github.com/trou/airscan
-
 ## Dictionaries
 http://xiaopan.co/forums/community/dictionary/
 http://wifi0wn.wordpress.com/wepwpawpa2-cracking-dictionary/
 https://blog.g0tmi1k.com/2011/06/dictionaries-wordlists/
 https://www.cloudcracker.com/dictionaries.html
 https://forums.hak5.org/index.php?/topic/29308-13gb-44gb-compressed-wpa-wpa2-word-list-982963904-words/
+
+## NintendoDS Scan
+https://github.com/trou/airscan
