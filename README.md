@@ -20,12 +20,44 @@ https://github.com/0x90/wifi-scripts
 [Wispi for TP-Link] (http://semaraks.blogspot.ru/2015/03/wispi-for-various-type-tp-link-router.html)
 
 ## 802.11 hacking @ OS X
+
+Apple80211, CoreWLAN examples
+
 ```
 ln -s 
 /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/binairport
 ```
 
 [Apple80211 framework analysis](http://newosxbook.com/articles/11208ellpA.html)
+
+
+## Atheros low level
+
+Change bandwidth
+```
+echo "$chanbw" > /sys/kernel/debug/ieee80211/$phy/ath9k/chanbw
+```
+
+Registry list
+```
+ls /sys/kernel/debug/ieee80211/phy*/ath9k_htc/registers/
+```
+
+[Atheros AP client firmware limit](https://lists.ath9k.org/pipermail/ath9k-devel/2013-April/010513.html)
+
+Disable ANI
+```
+echo '1' > /sys/kernel/debug/ieee80211/phy0/ath9k/disable_ani
+``
+
+Debug info:
+```
+iw --debug dev wlan0
+```
+
+Links:
+http://yo3iiu.ro/blog/?p=1301
+http://blog.altermundi.net/article/playing-with-ath9k-spectral-scan/
 
 ## Links
 
