@@ -33,6 +33,7 @@ sudo ln -s "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Curr
 ## Atheros low level
 
 Change bandwidth
+
 ```
 echo "$chanbw" > /sys/kernel/debug/ieee80211/$phy/ath9k/chanbw
 ```
@@ -47,7 +48,7 @@ ls /sys/kernel/debug/ieee80211/phy*/ath9k_htc/registers/
 Disable ANI
 ```
 echo '1' > /sys/kernel/debug/ieee80211/phy0/ath9k/disable_ani
-``
+```
 
 Debug info:
 ```
@@ -55,10 +56,11 @@ iw --debug dev wlan0
 ```
 
 Links:
+
 http://yo3iiu.ro/blog/?p=1301
 http://blog.altermundi.net/article/playing-with-ath9k-spectral-scan/
 
-## Links
+## Misc links
 
 http://pythonwifi.tuxfamily.org/
 http://blog.opensecurityresearch.com/2012/05/installing-lorcon2-on-backtrack-5-r2.html
