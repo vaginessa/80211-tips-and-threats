@@ -7,12 +7,17 @@ Links an code for "802.11 tips and threats" @ Defcon Moscow #dc4799
 https://www.dropbox.com/sh/bqf9wv7dvsb9ya0/AABXBQ7eCgDc2LQfX0CnBn8Za?dl=0
 
 ## Atheros hamradio
+
 http://yo3iiu.ro/blog/?p=1301
 
 ## My repos
+
 https://github.com/0x90/scapy-osx
+
 https://github.com/0x90/wifi-arsenal
+
 https://github.com/0x90/wps-scripts
+
 https://github.com/0x90/wifi-scripts
 
 ## Hardware
