@@ -70,9 +70,7 @@ http://corelabs.coresecurity.com/index.php?module=Wiki&action=view&type=tool&nam
 
 http://wifimafia.blogspot.ru/2011/03/wap-fingerprinting-wi-fi-alliance-way.html
 
-http://wifimafia.blogspot.ru/2011/03/injecting-80211-frames-with-pylorcon2.html
-
-http://askubuntu.com/questions/339509/how-to-execute-this-specific-python-script-attached-in-the-question
+http://wifimafia.blogspot.ru/2011/03/injecting-80211-frames-with-pylorcon2.htmln
 
 http://www.aircrack-ng.org/doku.php?id=cracking_wpa
 
@@ -141,4 +139,5 @@ https://www.cloudcracker.com/dictionaries.html
 https://forums.hak5.org/index.php?/topic/29308-13gb-44gb-compressed-wpa-wpa2-word-list-982963904-words/
 
 ## NintendoDS Scan
+
 https://github.com/trou/airscan
