@@ -21,11 +21,10 @@ https://github.com/0x90/wifi-scripts
 
 ## 802.11 hacking @ OS X
 
-Apple80211, CoreWLAN examples
+Apple80211, CoreWLAN examples in osx folder. Also use airport utility
 
 ```
-ln -s 
-/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/binairport
+sudo ln -s "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport" /usr/bin/airport
 ```
 
 [Apple80211 framework analysis](http://newosxbook.com/articles/11208ellpA.html)
